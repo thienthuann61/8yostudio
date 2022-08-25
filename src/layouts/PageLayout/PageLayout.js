@@ -67,7 +67,7 @@ function PageLayout({ children }) {
                                                 height: showPageMenuList
                                                     ? 46.75 * pageMenuList.length
                                                     : 0,
-                                                transition: '0.5s',
+                                                transition: '0.45s',
                                             }}
                                         >
                                             {pageMenuList.map((page) => {

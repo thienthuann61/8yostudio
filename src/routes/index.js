@@ -10,18 +10,19 @@ import ReturnPolicy from '~/pages/ReturnPolicy';
 import PrivacyPolicy from '~/pages/PrivacyPolicy';
 import TermsOfService from '~/pages/TermsOfService';
 import BangSize from '~/pages/BangSize';
-
+import ProductDetail from '~/pages/ProductDetail';
 // Public router
 const publicRoutes = [
     { path: '/', component: Home },
     { path: '/collections/:product', component: Product, layout: CollectionLayout },
+    { path: '/products/:productDetail', component: ProductDetail },
     { path: '/search', component: Search },
     { path: '/pages/about-us', component: Introduction, layout: PageLayout },
     { path: '/pages/chinh-sach-doi-tra', component: ReturnPolicy, layout: PageLayout },
     { path: '/pages/chinh-sach-bao-mat', component: PrivacyPolicy, layout: PageLayout },
     { path: '/pages/dieu-khoan-dich-vu', component: TermsOfService, layout: PageLayout },
     { path: '/pages/bang-size', component: BangSize, layout: PageLayout },
-    { path: '*', component: PageNotFound },
+    { path: '*', component: PageNotFound, layout: null },
 ];
 
 const privateRoutes = [];

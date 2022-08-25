@@ -14,6 +14,12 @@ export const data = [
         slug: '/products/love-song-1990s-tee-cream',
         status: 'Còn hàng',
         sold: 121,
+        info: {
+            main: ['Material ver2.0 Tee: Cotton 2C 100% 250gsm dày dặn, đứng form, xịn xò'],
+            img: [
+                'https://file.hstatic.net/200000258387/file/z3636855509379_048e036e3867398f2f62499a75a1e156_ebbb954a337547bea0d9c1e59f84d872_grande.jpg',
+            ],
+        },
     },
     {
         id: 2,
@@ -30,6 +36,12 @@ export const data = [
         slug: '/products/love-song-1990s-tee-black',
         status: 'Còn hàng',
         sold: 141,
+        info: {
+            main: ['Material ver2.0 Tee: Cotton 2C 100% 250gsm dày dặn, đứng form, xịn xò'],
+            img: [
+                'https://file.hstatic.net/200000258387/file/z3636855509379_048e036e3867398f2f62499a75a1e156_ebbb954a337547bea0d9c1e59f84d872_grande.jpg',
+            ],
+        },
     },
     {
         id: 3,
@@ -44,6 +56,12 @@ export const data = [
         slug: '/products/retro-classic-tee-cream',
         status: 'Còn hàng',
         sold: 1415,
+        info: {
+            main: ['Material ver2.0 Tee: Cotton 2C 100% 250gsm dày dặn, đứng form, xịn xò'],
+            img: [
+                'https://file.hstatic.net/200000258387/file/z3636855509379_048e036e3867398f2f62499a75a1e156_ebbb954a337547bea0d9c1e59f84d872_grande.jpg',
+            ],
+        },
     },
     {
         id: 4,
@@ -60,6 +78,12 @@ export const data = [
         slug: '/products/8yo-art-tee-green-trendy',
         status: 'Còn hàng',
         sold: 1511,
+        info: {
+            main: ['Material ver2.0 Tee: Cotton 2C 100% 250gsm dày dặn, đứng form, xịn xò'],
+            img: [
+                'https://file.hstatic.net/200000258387/file/z3636855509379_048e036e3867398f2f62499a75a1e156_ebbb954a337547bea0d9c1e59f84d872_grande.jpg',
+            ],
+        },
     },
     {
         id: 5,
@@ -77,6 +101,12 @@ export const data = [
         slug: '/products/8yo-classic-polo-green-trendy',
         status: 'Còn hàng',
         sold: 141,
+        info: {
+            main: ['Material ver2.0 Tee: Cotton 2C 100% 250gsm dày dặn, đứng form, xịn xò'],
+            img: [
+                'https://file.hstatic.net/200000258387/file/z3636855509379_048e036e3867398f2f62499a75a1e156_ebbb954a337547bea0d9c1e59f84d872_grande.jpg',
+            ],
+        },
     },
     {
         id: 6,
@@ -94,6 +124,12 @@ export const data = [
         slug: '/products/8yo-classic-polo-black',
         status: 'Còn hàng',
         sold: 4141,
+        info: {
+            main: ['Material ver2.0 Tee: Cotton 2C 100% 250gsm dày dặn, đứng form, xịn xò'],
+            img: [
+                'https://file.hstatic.net/200000258387/file/z3636855509379_048e036e3867398f2f62499a75a1e156_ebbb954a337547bea0d9c1e59f84d872_grande.jpg',
+            ],
+        },
     },
     {
         id: 7,
@@ -111,6 +147,12 @@ export const data = [
         slug: '/products/8yo-classic-polo-white',
         status: 'Còn hàng',
         sold: 41411,
+        info: {
+            main: ['Material ver2.0 Tee: Cotton 2C 100% 250gsm dày dặn, đứng form, xịn xò'],
+            img: [
+                'https://file.hstatic.net/200000258387/file/z3636855509379_048e036e3867398f2f62499a75a1e156_ebbb954a337547bea0d9c1e59f84d872_grande.jpg',
+            ],
+        },
     },
     {
         id: 8,
@@ -126,6 +168,12 @@ export const data = [
         slug: '/products/8yo-simple-tee-green-trendy',
         status: 'Còn hàng',
         sold: 14411,
+        info: {
+            main: ['Material ver2.0 Tee: Cotton 2C 100% 250gsm dày dặn, đứng form, xịn xò'],
+            img: [
+                'https://file.hstatic.net/200000258387/file/z3636855509379_048e036e3867398f2f62499a75a1e156_ebbb954a337547bea0d9c1e59f84d872_grande.jpg',
+            ],
+        },
     },
     {
         id: 9,
@@ -146,6 +194,15 @@ export const data = [
         slug: '/products/8yo-minibag-ss1',
         status: 'Còn hàng',
         sold: 11,
+        info: {
+            main: [
+                'Sản phẩm đến từ thương hiệu 8YO # ',
+                'Kích thước: 22cm x 16cm ',
+                'Chất liệu: vải bố chống thấm',
+                'Màu sắc: Đen',
+            ],
+            other: ['Hoạ tiết phản quang sáng khi chụp đèn flash'],
+        },
     },
     {
         id: 10,
@@ -164,6 +221,15 @@ export const data = [
         slug: '/products/8yo-reflective-mini-bag',
         status: 'Còn hàng',
         sold: 51,
+        info: {
+            main: [
+                'Sản phẩm đến từ thương hiệu 8YO # ',
+                'Kích thước: 22cm x 16cm ',
+                'Chất liệu: vải bố chống thấm',
+                'Màu sắc: Đen',
+            ],
+            other: ['Hoạ tiết phản quang sáng khi chụp đèn flash'],
+        },
     },
     {
         id: 11,
@@ -181,6 +247,10 @@ export const data = [
         slug: '/products/8yo-essential-sweater-pink',
         status: 'Còn hàng',
         sold: 5151,
+        info: {
+            main: ['Chất liệu: Nỉ da cá', 'Họa tiết: thêu vi tính chất lượng cao'],
+            size: ['Size M: <1m60 <55kg', 'Size M: <1m60 <55kg', 'Size XL: >1m75 >75kg'],
+        },
     },
     {
         id: 12,
@@ -199,6 +269,17 @@ export const data = [
         slug: '/products/8yo-simple-short-black',
         status: 'Còn hàng',
         sold: 6631,
+        info: {
+            main: ['MATERIAL: 100% COTTON - Nỉ bông dày dặn'],
+            size: [
+                'Size M : Chiều Cao Dưới 1m65 , Cân Nặng Dưới 60 kg',
+                'Size L : Chiều Cao từ 1m65 - 1m72, Cân Nặng 60kg - 80 kg',
+                'Size XL : Chiều Cao Trên 1m72 , Câng Nặng Trên 80 kg',
+            ],
+            img: [
+                'https://file.hstatic.net/200000258387/file/._form_ao_duoc_fit_size_theo_form_va_tieu_chuan_tuong_doi_cua_nguoi_vi_e497e375664f4dca852c57873b2358f1_grande.png',
+            ],
+        },
     },
     {
         id: 13,
@@ -216,6 +297,17 @@ export const data = [
         slug: '/products/8yo-simple-short-brown',
         status: 'Còn hàng',
         sold: 51,
+        info: {
+            main: ['MATERIAL: 100% COTTON - Nỉ bông dày dặn'],
+            size: [
+                'Size M : Chiều Cao Dưới 1m65 , Cân Nặng Dưới 60 kg',
+                'Size L : Chiều Cao từ 1m65 - 1m72, Cân Nặng 60kg - 80 kg',
+                'Size XL : Chiều Cao Trên 1m72 , Câng Nặng Trên 80 kg',
+            ],
+            img: [
+                'https://file.hstatic.net/200000258387/file/._form_ao_duoc_fit_size_theo_form_va_tieu_chuan_tuong_doi_cua_nguoi_vi_e497e375664f4dca852c57873b2358f1_grande.png',
+            ],
+        },
     },
     {
         id: 14,
@@ -232,6 +324,17 @@ export const data = [
         slug: '/products/8yo-simple-short-cream',
         status: 'Còn hàng',
         sold: 1636,
+        info: {
+            main: ['MATERIAL: 100% COTTON - Nỉ bông dày dặn'],
+            size: [
+                'Size M : Chiều Cao Dưới 1m65 , Cân Nặng Dưới 60 kg',
+                'Size L : Chiều Cao từ 1m65 - 1m72, Cân Nặng 60kg - 80 kg',
+                'Size XL : Chiều Cao Trên 1m72 , Câng Nặng Trên 80 kg',
+            ],
+            img: [
+                'https://file.hstatic.net/200000258387/file/._form_ao_duoc_fit_size_theo_form_va_tieu_chuan_tuong_doi_cua_nguoi_vi_e497e375664f4dca852c57873b2358f1_grande.png',
+            ],
+        },
     },
     {
         id: 15,
@@ -248,6 +351,17 @@ export const data = [
         slug: '/products/8yo-simple-short-grey',
         status: 'Còn hàng',
         sold: 1252,
+        info: {
+            main: ['MATERIAL: 100% COTTON - Nỉ bông dày dặn'],
+            size: [
+                'Size M : Chiều Cao Dưới 1m65 , Cân Nặng Dưới 60 kg',
+                'Size L : Chiều Cao từ 1m65 - 1m72, Cân Nặng 60kg - 80 kg',
+                'Size XL : Chiều Cao Trên 1m72 , Câng Nặng Trên 80 kg',
+            ],
+            img: [
+                'https://file.hstatic.net/200000258387/file/._form_ao_duoc_fit_size_theo_form_va_tieu_chuan_tuong_doi_cua_nguoi_vi_e497e375664f4dca852c57873b2358f1_grande.png',
+            ],
+        },
     },
     {
         id: 16,
@@ -266,6 +380,12 @@ export const data = [
         slug: '/products/8yo-lullaby-tee-ver2-0-3-color',
         status: 'Còn hàng',
         sold: 1525,
+        info: {
+            main: ['Material ver2.0 Tee: Cotton 2C 100% 250gsm dày dặn, đứng form, xịn xò'],
+            img: [
+                'https://file.hstatic.net/200000258387/file/z3636855509379_048e036e3867398f2f62499a75a1e156_ebbb954a337547bea0d9c1e59f84d872_grande.jpg',
+            ],
+        },
     },
     {
         id: 17,
@@ -284,6 +404,12 @@ export const data = [
         slug: '/products/8yo-step-up-tee-ver2-0-3-color',
         status: 'Còn hàng',
         sold: 1525,
+        info: {
+            main: ['Material ver2.0 Tee: Cotton 2C 100% 250gsm dày dặn, đứng form, xịn xò'],
+            img: [
+                'https://file.hstatic.net/200000258387/file/z3636855509379_048e036e3867398f2f62499a75a1e156_ebbb954a337547bea0d9c1e59f84d872_grande.jpg',
+            ],
+        },
     },
     {
         id: 18,
@@ -302,6 +428,12 @@ export const data = [
         slug: '/products/8yo-essential-tee-ver2-0-3-color',
         status: 'Còn hàng',
         sold: 1252,
+        info: {
+            main: ['Material ver2.0 Tee: Cotton 2C 100% 250gsm dày dặn, đứng form, xịn xò'],
+            img: [
+                'https://file.hstatic.net/200000258387/file/z3636855509379_048e036e3867398f2f62499a75a1e156_ebbb954a337547bea0d9c1e59f84d872_grande.jpg',
+            ],
+        },
     },
     {
         id: 19,
@@ -318,6 +450,12 @@ export const data = [
         slug: '/products/anatomy-tee-green-trendy',
         status: 'Còn hàng',
         sold: 15252,
+        info: {
+            main: ['Material ver2.0 Tee: Cotton 2C 100% 250gsm dày dặn, đứng form, xịn xò'],
+            img: [
+                'https://file.hstatic.net/200000258387/file/z3636855509379_048e036e3867398f2f62499a75a1e156_ebbb954a337547bea0d9c1e59f84d872_grande.jpg',
+            ],
+        },
     },
     {
         id: 20,
@@ -334,6 +472,15 @@ export const data = [
         slug: '/products/8yo-terry-fabric-hoodie-black',
         status: 'Tạm hết hàng',
         sold: 12552,
+        info: {
+            main: [
+                'Chất liệu : Nhung tăm mềm mại, lót dù thoáng mát, may 2 lớp dày dặn',
+                'Cộng nghệ : Thêu vi tính sắc nét, nút bấm inox xịn xò dễ sử dụng, đường may sắc sảo, bao giặt máy',
+            ],
+            img: [
+                'https://file.hstatic.net/200000258387/file/45-60_4aced455f8f04c2ebda83da6b2fb9854_grande.png',
+            ],
+        },
     },
     {
         id: 21,
@@ -350,6 +497,15 @@ export const data = [
         slug: '/products/8yo-terry-fabric-hoodie-black',
         status: 'Tạm hết hàng',
         sold: 12521552,
+        info: {
+            main: [
+                'Chất liệu : Nhung tăm mềm mại, lót dù thoáng mát, may 2 lớp dày dặn',
+                'Cộng nghệ : Thêu vi tính sắc nét, nút bấm inox xịn xò dễ sử dụng, đường may sắc sảo, bao giặt máy',
+            ],
+            img: [
+                'https://file.hstatic.net/200000258387/file/45-60_4aced455f8f04c2ebda83da6b2fb9854_grande.png',
+            ],
+        },
     },
     {
         id: 22,
@@ -366,6 +522,15 @@ export const data = [
         slug: '/products/8yo-terry-fabric-hoodie-cream',
         status: 'Tạm hết hàng',
         sold: 26,
+        info: {
+            main: [
+                'Chất liệu : Nhung tăm mềm mại, lót dù thoáng mát, may 2 lớp dày dặn',
+                'Cộng nghệ : Thêu vi tính sắc nét, nút bấm inox xịn xò dễ sử dụng, đường may sắc sảo, bao giặt máy',
+            ],
+            img: [
+                'https://file.hstatic.net/200000258387/file/45-60_4aced455f8f04c2ebda83da6b2fb9854_grande.png',
+            ],
+        },
     },
     {
         id: 23,
@@ -382,6 +547,15 @@ export const data = [
         slug: '/products/embroidery-hoodie-black',
         status: 'Còn hàng',
         sold: 215156,
+        info: {
+            main: [
+                'Chất liệu : Nhung tăm mềm mại, lót dù thoáng mát, may 2 lớp dày dặn',
+                'Cộng nghệ : Thêu vi tính sắc nét, nút bấm inox xịn xò dễ sử dụng, đường may sắc sảo, bao giặt máy',
+            ],
+            img: [
+                'https://file.hstatic.net/200000258387/file/45-60_4aced455f8f04c2ebda83da6b2fb9854_grande.png',
+            ],
+        },
     },
     {
         id: 24,
@@ -398,6 +572,15 @@ export const data = [
         slug: '/products/embroidery-hoodie-cream',
         status: 'Còn hàng',
         sold: 14156,
+        info: {
+            main: [
+                'Chất liệu : Nhung tăm mềm mại, lót dù thoáng mát, may 2 lớp dày dặn',
+                'Cộng nghệ : Thêu vi tính sắc nét, nút bấm inox xịn xò dễ sử dụng, đường may sắc sảo, bao giặt máy',
+            ],
+            img: [
+                'https://file.hstatic.net/200000258387/file/45-60_4aced455f8f04c2ebda83da6b2fb9854_grande.png',
+            ],
+        },
     },
     {
         id: 25,
@@ -414,6 +597,15 @@ export const data = [
         slug: '/products/embroidery-hoodie-dark-green',
         status: 'Còn hàng',
         sold: 1156,
+        info: {
+            main: [
+                'Chất liệu : Nhung tăm mềm mại, lót dù thoáng mát, may 2 lớp dày dặn',
+                'Cộng nghệ : Thêu vi tính sắc nét, nút bấm inox xịn xò dễ sử dụng, đường may sắc sảo, bao giặt máy',
+            ],
+            img: [
+                'https://file.hstatic.net/200000258387/file/45-60_4aced455f8f04c2ebda83da6b2fb9854_grande.png',
+            ],
+        },
     },
     {
         id: 26,
@@ -430,6 +622,15 @@ export const data = [
         slug: '/products/embroidery-hoodie-grey',
         status: 'Còn hàng',
         sold: 156,
+        info: {
+            main: [
+                'Chất liệu : Nhung tăm mềm mại, lót dù thoáng mát, may 2 lớp dày dặn',
+                'Cộng nghệ : Thêu vi tính sắc nét, nút bấm inox xịn xò dễ sử dụng, đường may sắc sảo, bao giặt máy',
+            ],
+            img: [
+                'https://file.hstatic.net/200000258387/file/45-60_4aced455f8f04c2ebda83da6b2fb9854_grande.png',
+            ],
+        },
     },
     {
         id: 27,
@@ -446,6 +647,15 @@ export const data = [
         slug: '/products/game-pattern-hoodie',
         status: 'Tạm hết hàng',
         sold: 1154,
+        info: {
+            main: [
+                'Chất liệu : Nhung tăm mềm mại, lót dù thoáng mát, may 2 lớp dày dặn',
+                'Cộng nghệ : Thêu vi tính sắc nét, nút bấm inox xịn xò dễ sử dụng, đường may sắc sảo, bao giặt máy',
+            ],
+            img: [
+                'https://file.hstatic.net/200000258387/file/45-60_4aced455f8f04c2ebda83da6b2fb9854_grande.png',
+            ],
+        },
     },
     {
         id: 28,
@@ -462,6 +672,15 @@ export const data = [
         slug: '/products/hoodie-zip-vacation-black',
         status: 'Còn hàng',
         sold: 1154,
+        info: {
+            main: [
+                'Chất liệu : Nhung tăm mềm mại, lót dù thoáng mát, may 2 lớp dày dặn',
+                'Cộng nghệ : Thêu vi tính sắc nét, nút bấm inox xịn xò dễ sử dụng, đường may sắc sảo, bao giặt máy',
+            ],
+            img: [
+                'https://file.hstatic.net/200000258387/file/45-60_4aced455f8f04c2ebda83da6b2fb9854_grande.png',
+            ],
+        },
     },
     {
         id: 29,
@@ -478,6 +697,15 @@ export const data = [
         slug: '/products/vacation-hoodie-cream',
         status: 'Còn hàng',
         sold: 112554,
+        info: {
+            main: [
+                'Chất liệu : Nhung tăm mềm mại, lót dù thoáng mát, may 2 lớp dày dặn',
+                'Cộng nghệ : Thêu vi tính sắc nét, nút bấm inox xịn xò dễ sử dụng, đường may sắc sảo, bao giặt máy',
+            ],
+            img: [
+                'https://file.hstatic.net/200000258387/file/45-60_4aced455f8f04c2ebda83da6b2fb9854_grande.png',
+            ],
+        },
     },
     {
         id: 30,
@@ -494,6 +722,15 @@ export const data = [
         slug: '/products/hoodie-zip-day-keo-vacation',
         status: 'Tạm hết hàng',
         sold: 154,
+        info: {
+            main: [
+                'Chất liệu : Nhung tăm mềm mại, lót dù thoáng mát, may 2 lớp dày dặn',
+                'Cộng nghệ : Thêu vi tính sắc nét, nút bấm inox xịn xò dễ sử dụng, đường may sắc sảo, bao giặt máy',
+            ],
+            img: [
+                'https://file.hstatic.net/200000258387/file/45-60_4aced455f8f04c2ebda83da6b2fb9854_grande.png',
+            ],
+        },
     },
     {
         id: 31,
@@ -510,6 +747,15 @@ export const data = [
         slug: '/products/multi-planet-hoodie-black',
         status: 'Tạm hết hàng',
         sold: 1534,
+        info: {
+            main: [
+                'Chất liệu : Nhung tăm mềm mại, lót dù thoáng mát, may 2 lớp dày dặn',
+                'Cộng nghệ : Thêu vi tính sắc nét, nút bấm inox xịn xò dễ sử dụng, đường may sắc sảo, bao giặt máy',
+            ],
+            img: [
+                'https://file.hstatic.net/200000258387/file/45-60_4aced455f8f04c2ebda83da6b2fb9854_grande.png',
+            ],
+        },
     },
     {
         id: 32,
@@ -526,6 +772,15 @@ export const data = [
         slug: '/products/multi-planet-hoodie-white',
         status: 'Còn hàng',
         sold: 1525634,
+        info: {
+            main: [
+                'Chất liệu : Nhung tăm mềm mại, lót dù thoáng mát, may 2 lớp dày dặn',
+                'Cộng nghệ : Thêu vi tính sắc nét, nút bấm inox xịn xò dễ sử dụng, đường may sắc sảo, bao giặt máy',
+            ],
+            img: [
+                'https://file.hstatic.net/200000258387/file/45-60_4aced455f8f04c2ebda83da6b2fb9854_grande.png',
+            ],
+        },
     },
     {
         id: 33,
@@ -542,6 +797,15 @@ export const data = [
         slug: '/products/retro-classic-hoodie-beige',
         status: 'Tạm hết hàng',
         sold: 134,
+        info: {
+            main: [
+                'Chất liệu : Nhung tăm mềm mại, lót dù thoáng mát, may 2 lớp dày dặn',
+                'Cộng nghệ : Thêu vi tính sắc nét, nút bấm inox xịn xò dễ sử dụng, đường may sắc sảo, bao giặt máy',
+            ],
+            img: [
+                'https://file.hstatic.net/200000258387/file/45-60_4aced455f8f04c2ebda83da6b2fb9854_grande.png',
+            ],
+        },
     },
     {
         id: 34,
@@ -558,6 +822,15 @@ export const data = [
         slug: '/products/nhan-ban-tu-retro-classic-hoodie-black',
         status: 'Tạm hết hàng',
         sold: 24,
+        info: {
+            main: [
+                'Chất liệu : Nhung tăm mềm mại, lót dù thoáng mát, may 2 lớp dày dặn',
+                'Cộng nghệ : Thêu vi tính sắc nét, nút bấm inox xịn xò dễ sử dụng, đường may sắc sảo, bao giặt máy',
+            ],
+            img: [
+                'https://file.hstatic.net/200000258387/file/45-60_4aced455f8f04c2ebda83da6b2fb9854_grande.png',
+            ],
+        },
     },
     {
         id: 35,
@@ -574,6 +847,15 @@ export const data = [
         slug: '/products/retro-classic-hoodie-grey',
         status: 'Tạm hết hàng',
         sold: 22524,
+        info: {
+            main: [
+                'Chất liệu : Nhung tăm mềm mại, lót dù thoáng mát, may 2 lớp dày dặn',
+                'Cộng nghệ : Thêu vi tính sắc nét, nút bấm inox xịn xò dễ sử dụng, đường may sắc sảo, bao giặt máy',
+            ],
+            img: [
+                'https://file.hstatic.net/200000258387/file/45-60_4aced455f8f04c2ebda83da6b2fb9854_grande.png',
+            ],
+        },
     },
     {
         id: 36,
@@ -590,6 +872,15 @@ export const data = [
         slug: '/products/social-nista-hoodie-white',
         status: 'Tạm hết hàng',
         sold: 4,
+        info: {
+            main: [
+                'Chất liệu : Nhung tăm mềm mại, lót dù thoáng mát, may 2 lớp dày dặn',
+                'Cộng nghệ : Thêu vi tính sắc nét, nút bấm inox xịn xò dễ sử dụng, đường may sắc sảo, bao giặt máy',
+            ],
+            img: [
+                'https://file.hstatic.net/200000258387/file/45-60_4aced455f8f04c2ebda83da6b2fb9854_grande.png',
+            ],
+        },
     },
     {
         id: 37,
@@ -606,6 +897,15 @@ export const data = [
         slug: '/products/teru-teru-bozu-hoodie-black',
         status: 'Tạm hết hàng',
         sold: 64,
+        info: {
+            main: [
+                'Chất liệu : Nhung tăm mềm mại, lót dù thoáng mát, may 2 lớp dày dặn',
+                'Cộng nghệ : Thêu vi tính sắc nét, nút bấm inox xịn xò dễ sử dụng, đường may sắc sảo, bao giặt máy',
+            ],
+            img: [
+                'https://file.hstatic.net/200000258387/file/45-60_4aced455f8f04c2ebda83da6b2fb9854_grande.png',
+            ],
+        },
     },
     {
         id: 38,
@@ -622,6 +922,15 @@ export const data = [
         slug: '/products/summer-vacation-hoodie-black',
         status: 'Tạm hết hàng',
         sold: 647,
+        info: {
+            main: [
+                'Chất liệu : Nhung tăm mềm mại, lót dù thoáng mát, may 2 lớp dày dặn',
+                'Cộng nghệ : Thêu vi tính sắc nét, nút bấm inox xịn xò dễ sử dụng, đường may sắc sảo, bao giặt máy',
+            ],
+            img: [
+                'https://file.hstatic.net/200000258387/file/45-60_4aced455f8f04c2ebda83da6b2fb9854_grande.png',
+            ],
+        },
     },
     {
         id: 39,
@@ -638,6 +947,15 @@ export const data = [
         slug: '/products/summer-vacation-hoodie-white',
         status: 'Còn hàng',
         sold: 65264,
+        info: {
+            main: [
+                'Chất liệu : Nhung tăm mềm mại, lót dù thoáng mát, may 2 lớp dày dặn',
+                'Cộng nghệ : Thêu vi tính sắc nét, nút bấm inox xịn xò dễ sử dụng, đường may sắc sảo, bao giặt máy',
+            ],
+            img: [
+                'https://file.hstatic.net/200000258387/file/45-60_4aced455f8f04c2ebda83da6b2fb9854_grande.png',
+            ],
+        },
     },
 ];
 

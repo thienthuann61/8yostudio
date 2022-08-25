@@ -103,14 +103,26 @@
     top: 100%;
     min-width: auto;
     width: 270px;
+    height: calc(100vh - var(--top-header-height));
+    overflow: hidden;
     z-index: 10;
     background: var(--white-color);
     box-shadow: 0 1px 5px 2px rgb(0 0 0 / 10%);
+    animation: fadeIn 0.2s linear;
+    user-select: none;
 
     &__heading {
         padding: 15px 12px 5px;
         text-align: left;
         border-bottom: 1px solid var(--border-color);
+
+        a {
+            height: 30px;
+            display: block;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+        }
 
         svg {
             width: 30px;
@@ -120,22 +132,28 @@
     }
 
     .menu-vertical__scroll {
+        padding: 10px 0 30px;
         overflow-x: hidden;
-        overflow-y: auto;
-    }
+        overflow-y: scroll;
+        height: calc(100vh - 51px - var(--top-header-height));
 
-    .menu-vertical ul {
-        overflow-x: hidden;
-        overflow-y: auto;
+        &::-webkit-scrollbar {
+            width: 2px;
+        }
+
+        &::-webkit-scrollbar-track {
+            background-color: var(--white-color);
+        }
+
+        &::-webkit-scrollbar-thumb {
+            background-color: #b0b1b2;
+            border-radius: 4px;
+        }
     }
 
     ul > {
         li {
             list-style: none;
-
-            &:first-child {
-                padding-top: 10px;
-            }
         }
 
         li > .menu-vertical__item,
@@ -188,7 +206,7 @@
     }
 
     .help {
-        padding: 20px 10px 60px;
+        padding: 20px 10px 30px;
         font-size: 1.4rem;
 
         h3 {
@@ -196,6 +214,7 @@
             font-weight: 500;
             margin-bottom: 10px;
             text-transform: uppercase;
+            line-height: 1.5;
         }
 
         .help__item {
@@ -204,12 +223,16 @@
             text-decoration: none;
             color: var(--black-color);
             position: relative;
+            padding: 7px 0;
 
             .help__icon {
+                width: 16px;
+                height: 24px;
+                margin-right: 14px;
+
                 svg {
                     width: 16px;
                     height: 24px;
-                    margin-right: 14px;
                 }
             }
         }

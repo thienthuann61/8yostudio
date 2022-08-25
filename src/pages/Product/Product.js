@@ -1,5 +1,5 @@
 import { useLocation } from 'react-router-dom';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSpinner } from '@fortawesome/free-solid-svg-icons';
@@ -20,6 +20,10 @@ function Product() {
 
     const location = useLocation();
 
+    useEffect(() => {
+        setNumberOfShow(12);
+    }, [location]);
+
     const menuList = categories.collection;
     const pageCurrent = menuList.find((item) => item.slug === location.pathname);
 
@@ -28,7 +32,7 @@ function Product() {
     const productShowOnPageCurrent = productOnPageCurrent.slice(0, numberOfShow);
 
     const handleChangeProductShow = () => {
-        setIconLoadMoreProduct(true); 
+        setIconLoadMoreProduct(true);
         setTimeout(() => {
             setNumberOfShow(numberOfShow + 12);
             setIconLoadMoreProduct(false);
@@ -41,6 +45,7 @@ function Product() {
                 {productShowOnPageCurrent.map((product) => (
                     <div className="col col-3 col-sm-6" key={product.id}>
                         <OneProduct
+                            linkDetail={product.slug}
                             srcImgOne={product.img[0]}
                             srcImgTwo={product.img[1]}
                             title={product.name}

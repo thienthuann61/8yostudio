@@ -55,6 +55,7 @@ function Home() {
                     {twelveProductNew.map((product) => (
                         <div className="col col-3 col-sm-6" key={product.id}>
                             <OneProduct
+                                linkDetail={product.slug}
                                 srcImgOne={product.img[0]}
                                 srcImgTwo={product.img[1]}
                                 title={product.name}
@@ -75,6 +76,7 @@ function Home() {
                     {twelveTee.map((product) => (
                         <div className="col col-3 col-sm-6" key={product.id}>
                             <OneProduct
+                                linkDetail={product.slug}
                                 srcImgOne={product.img[0]}
                                 srcImgTwo={product.img[1]}
                                 title={product.name}
@@ -95,6 +97,7 @@ function Home() {
                     {twelveHoodie.map((product) => (
                         <div className="col col-3 col-sm-6" key={product.id}>
                             <OneProduct
+                                linkDetail={product.slug}
                                 srcImgOne={product.img[0]}
                                 srcImgTwo={product.img[1]}
                                 title={product.name}
@@ -110,6 +113,7 @@ function Home() {
                     {twelveSweater.map((product) => (
                         <div className="col col-3 col-sm-6" key={product.id}>
                             <OneProduct
+                                linkDetail={product.slug}
                                 srcImgOne={product.img[0]}
                                 srcImgTwo={product.img[1]}
                                 title={product.name}
@@ -129,6 +133,7 @@ function Home() {
                     {elevenProductBestSelling.map((product) => (
                         <div className="col col-3 col-sm-6" key={product.id}>
                             <OneProduct
+                                linkDetail={product.slug}
                                 srcImgOne={product.img[0]}
                                 srcImgTwo={product.img[1]}
                                 title={product.name}

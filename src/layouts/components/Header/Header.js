@@ -22,7 +22,6 @@ function Header() {
     useEffect(() => {
         setHideMenu(true);
         setShowMenu(false);
-        setShowMenu(false);
     }, [location]);
 
     const menuList = categories.menu;
@@ -38,6 +37,13 @@ function Header() {
     const handleShowHideMenu = () => {
         setShowMenu(!showMenu);
         setHideMenu(!hideMenu);
+        setShowMenuProduct(false);
+        setHideMenuProduct(true);
+    };
+
+    const handleHideMenu = () => {
+        setShowMenu(false);
+        setHideMenu(true);
     };
 
     const handleShowHideMenuProduct = () => {
@@ -45,13 +51,24 @@ function Header() {
         setShowMenuProduct(!showMenuProduct);
     };
 
+    useEffect(() => {
+        window.onscroll = () => {
+            setShowMenu(false);
+            setHideMenu(true);
+        };
+    }, []);
+
     return (
         <>
             <div className={cx('top-header')}>
                 <div className={cx('wrapper')}>
                     <div className={cx('flex-top-header')}>
                         <div className={cx('nav-vertical__wrap')}>
-                            <div className={cx('nav-vertical')} onClick={handleShowHideMenu}>
+                            <div
+                                className={cx('nav-vertical')}
+                                onClick={handleShowHideMenu}
+                                title="Menu"
+                            >
                                 <div className={cx('icon')}>
                                     {hideMenu && <span className={cx('bar')}></span>}
                                     {showMenu && (
@@ -284,6 +301,7 @@ function Header() {
                                     type="search"
                                     maxLength="40"
                                     placeholder="Tìm kiếm sản phẩm..."
+                                    onFocus={handleHideMenu}
                                 />
                                 <button className={cx('btn-search')}>
                                     <svg
